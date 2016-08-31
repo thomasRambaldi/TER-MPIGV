@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<project name="" company="" manager="" phase="" project-start="20160412T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Travaill&#xE9;" description="Un jour de travail normal"/>
+      <day-type id="1" name="Ch&#xF4;m&#xE9;" description="Un jour ch&#xF4;m&#xE9; normal"/>
+      <day-type id="2" name="Utiliser la base" description="Utilise un jour du calendrier de base"/>
+    </day-types>
+    <calendar id="1" name="D&#xE9;faut">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days/>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Cr&#xE9;er le serveur en java" note="Serveur a &#xE9;t&#xE9; fini 3 jours en avance" work="144000" start="20160419T000000Z" end="20160425T170000Z" work-start="20160419T080000Z" percent-complete="100" priority="5" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160419T000000Z"/>
+    </task>
+    <task id="2" name="Afficher le slide sur le serveur" note="a &#xE9;t&#xE9; fini le 23 avril" work="28800" start="20160426T000000Z" end="20160426T170000Z" work-start="20160426T080000Z" percent-complete="100" priority="4" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160426T000000Z"/>
+    </task>
+    <task id="3" name="Changer le slide sur le serveur" note="a &#xE9;t&#xE9; fini le 23 avril" work="28800" start="20160427T000000Z" end="20160427T170000Z" work-start="20160427T080000Z" percent-complete="100" priority="4" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160427T000000Z"/>
+    </task>
+    <task id="4" name="Construire le fichier XML &#xE0; partir du Beamer" note="" work="144000" start="20160412T000000Z" end="20160426T170000Z" work-start="20160412T080000Z" percent-complete="100" priority="4" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160418T000000Z"/>
+      <task id="5" name="Lecture d'un fichier Beamer" note="" work="86400" start="20160412T000000Z" end="20160414T170000Z" work-start="20160412T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="6" name="Construction d'un fichier XML" note="" work="57600" start="20160425T000000Z" end="20160426T170000Z" work-start="20160425T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="start-no-earlier-than" time="20160425T000000Z"/>
+      </task>
+    </task>
+    <task id="7" name="Cr&#xE9;ation du client en python" note="" work="144000" start="20160419T000000Z" end="20160425T170000Z" work-start="20160419T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160419T000000Z"/>
+    </task>
+    <task id="8" name="Lecture du fichier XML" note="" work="28800" start="20160426T000000Z" end="20160426T170000Z" work-start="20160426T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160426T000000Z"/>
+    </task>
+    <task id="9" name="Finalisation de la version 1" note="" work="172800" start="20160427T000000Z" end="20160502T081320Z" work-start="20160427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160427T000000Z"/>
+      <task id="10" name="Clarification du code" note="" work="86400" start="20160427T000000Z" end="20160502T081320Z" work-start="20160427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160427T000000Z"/>
+      </task>
+      <task id="11" name="Documentation du code" note="" work="86400" start="20160427T000000Z" end="20160502T081320Z" work-start="20160427T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160427T000000Z"/>
+      </task>
+    </task>
+    <task id="12" name="Version 2" note="" work="460512" start="20160502T000000Z" end="20160513T170000Z" work-start="20160502T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
+      <task id="13" name="Structuration" note="" work="144000" start="20160502T000000Z" end="20160506T170000Z" work-start="20160502T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <task id="14" name="Fichier Beamer" note="" work="28800" start="20160502T000000Z" end="20160502T170000Z" work-start="20160502T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160502T000000Z"/>
+        </task>
+        <task id="15" name="FIchier XML" note="" work="115200" start="20160503T000000Z" end="20160506T170000Z" work-start="20160503T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160503T000000Z"/>
+        </task>
+      </task>
+      <task id="16" name="Modification" note="" work="230400" start="20160502T000000Z" end="20160513T170000Z" work-start="20160502T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
+        <task id="17" name="Server/Client" note="" work="115200" start="20160510T000000Z" end="20160513T170000Z" work-start="20160510T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160504T000000Z"/>
+          <task id="18" name="Mots cl&#xE9; associ&#xE9; &#xE0; chaque diapo" note="" work="115200" start="20160510T000000Z" end="20160513T170000Z" work-start="20160510T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <constraint type="must-start-on" time="20160510T000000Z"/>
+          </task>
+        </task>
+        <task id="19" name="Lecture XML" note="" work="57600" start="20160504T000000Z" end="20160505T170000Z" work-start="20160504T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160504T000000Z"/>
+        </task>
+        <task id="20" name="Swing to JavaFX" note="" work="28800" start="20160509T000000Z" end="20160509T170000Z" work-start="20160509T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160509T000000Z"/>
+        </task>
+        <task id="21" name="Lecture Beamer" note="" work="28800" start="20160502T000000Z" end="20160502T170000Z" work-start="20160502T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20160502T000000Z"/>
+        </task>
+      </task>
+      <task id="22" name="Fusion des parties" note="" work="28800" start="20160506T000000Z" end="20160509T130640Z" work-start="20160506T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160506T000000Z"/>
+      </task>
+      <task id="23" name="Clarification du code" note="" work="28800" start="20160509T000000Z" end="20160510T080320Z" work-start="20160509T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160509T000000Z"/>
+      </task>
+      <task id="24" name="Documentation du code" note="" work="28512" start="20160509T000000Z" end="20160509T170000Z" work-start="20160509T080000Z" percent-complete="80" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20160509T000000Z"/>
+      </task>
+    </task>
+    <task id="25" name="R&#xE9;daction du rapport" note="" work="691200" start="20160418T000000Z" end="20160520T095500Z" work-start="20160418T080000Z" percent-complete="80" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160418T000000Z"/>
+    </task>
+    <task id="26" name="Wiki" note="" work="86400" start="20160516T000000Z" end="20160518T170000Z" work-start="20160516T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160516T000000Z"/>
+    </task>
+    <task id="27" name="Les test" note="" work="86400" start="20160516T000000Z" end="20160519T081320Z" work-start="20160516T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20160516T000000Z"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources>
+    <resource id="1" name="Chikbouini" short-name="C.Y" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="2" name="Lebreton" short-name="L.K" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="Rambaldi" short-name="R.T" type="1" units="0" email="t.rambaldi13@gmail.com" note="" std-rate="0"/>
+  </resources>
+  <allocations>
+    <allocation task-id="21" resource-id="1" units="100"/>
+    <allocation task-id="27" resource-id="1" units="33"/>
+    <allocation task-id="26" resource-id="1" units="100"/>
+    <allocation task-id="12" resource-id="1" units="100"/>
+    <allocation task-id="25" resource-id="1" units="33"/>
+    <allocation task-id="15" resource-id="1" units="100"/>
+    <allocation task-id="24" resource-id="1" units="33"/>
+    <allocation task-id="23" resource-id="1" units="33"/>
+    <allocation task-id="13" resource-id="1" units="100"/>
+    <allocation task-id="10" resource-id="1" units="33"/>
+    <allocation task-id="11" resource-id="1" units="33"/>
+    <allocation task-id="9" resource-id="1" units="33"/>
+    <allocation task-id="6" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="4" resource-id="1" units="100"/>
+    <allocation task-id="27" resource-id="2" units="33"/>
+    <allocation task-id="12" resource-id="2" units="100"/>
+    <allocation task-id="3" resource-id="2" units="100"/>
+    <allocation task-id="19" resource-id="2" units="50"/>
+    <allocation task-id="20" resource-id="2" units="100"/>
+    <allocation task-id="25" resource-id="2" units="33"/>
+    <allocation task-id="24" resource-id="2" units="33"/>
+    <allocation task-id="23" resource-id="2" units="33"/>
+    <allocation task-id="13" resource-id="2" units="100"/>
+    <allocation task-id="22" resource-id="2" units="33"/>
+    <allocation task-id="16" resource-id="2" units="100"/>
+    <allocation task-id="17" resource-id="2" units="50"/>
+    <allocation task-id="10" resource-id="2" units="33"/>
+    <allocation task-id="11" resource-id="2" units="33"/>
+    <allocation task-id="9" resource-id="2" units="33"/>
+    <allocation task-id="7" resource-id="2" units="50"/>
+    <allocation task-id="2" resource-id="2" units="100"/>
+    <allocation task-id="1" resource-id="2" units="50"/>
+    <allocation task-id="18" resource-id="3" units="100"/>
+    <allocation task-id="27" resource-id="3" units="33"/>
+    <allocation task-id="12" resource-id="3" units="100"/>
+    <allocation task-id="25" resource-id="3" units="33"/>
+    <allocation task-id="24" resource-id="3" units="33"/>
+    <allocation task-id="23" resource-id="3" units="33"/>
+    <allocation task-id="13" resource-id="3" units="100"/>
+    <allocation task-id="22" resource-id="3" units="33"/>
+    <allocation task-id="16" resource-id="3" units="100"/>
+    <allocation task-id="19" resource-id="3" units="50"/>
+    <allocation task-id="17" resource-id="3" units="50"/>
+    <allocation task-id="14" resource-id="3" units="100"/>
+    <allocation task-id="10" resource-id="3" units="33"/>
+    <allocation task-id="11" resource-id="3" units="33"/>
+    <allocation task-id="9" resource-id="3" units="33"/>
+    <allocation task-id="8" resource-id="3" units="100"/>
+    <allocation task-id="7" resource-id="3" units="50"/>
+    <allocation task-id="1" resource-id="3" units="50"/>
+  </allocations>
+</project>

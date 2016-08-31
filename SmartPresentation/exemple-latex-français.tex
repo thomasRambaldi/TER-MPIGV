@@ -1,0 +1,65 @@
+\documentclass[english]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[]{babel}
+
+% Pour la première page
+\title{Presentation Française}
+\author{Kevin Lebreton}
+\date{29/05/16}
+		
+\begin{document}
+  \begin{frame}
+ \frametitle{Exemple Français}
+	% Nous allons commencer notre presentation, passons à l'introduction.
+	    \titlepage
+  \end{frame}
+
+  
+  \begin{frame}{Table des matières}
+	%Nous sommes dans la seconde diapositive qui représente la table des matières    
+	\tableofcontents
+  \end{frame}
+
+  \section{Notre projet}
+  \begin{frame}{Titre de la troisieme diapositive}
+    %Notre projet est un moteur de présentation intéractive guidée par la voix
+    Moteur de présentation \\ 
+    Controllé par la voix \\ 
+    Projet et management.
+  \end{frame}
+
+  \section{Conclusion et exemples}
+  \begin{frame}{Conclusion}
+	%Le texte pour le premier bloc avec une animation
+	\begin{block}{Nous pouvons utiliser des mots-clefs}<1->
+	  	\begin{itemize}
+	  		\item {\tt passer à la diapositive suivante}   		
+    		\item {\tt passer à la diapositive précédante}
+		\end{itemize}
+	\end{block}
+
+	%Le texte pour le second bloc avec une animation
+	\begin{block}{Nous pouvons utiliser des mots-clefs spéciaux}<2->
+	  	\begin{itemize}
+	  		\item {\tt aller à la diapositive introduction}   		
+    		\item {\tt aller à la diapositive conclusion}
+		\end{itemize}
+	\end{block}
+
+	%Le texte pour le troisième bloc avec une animation
+	\begin{block}{Nous pouvons dire notre texte}<3->
+	  	\begin{itemize}
+	  		\item {\tt Vous avez juste à lire le texte ci-dessous}   		
+    		\item {\tt Le texte pour le troisième bloc avec une animation}
+		\end{itemize}
+	\end{block}
+  \end{frame}
+  
+  {\1
+\begin{frame}[plain,noframenumbering]
+  \finalpage{Merci}
+\end{frame}
+}
+
+\end{document}

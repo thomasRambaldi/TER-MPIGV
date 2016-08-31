@@ -1,0 +1,39 @@
+aller a la diapositive frame without title Bonjour a toutes et a tous Nous allons vous presentez notre projet Tout d'abord une presentation de l'equipe de developpement Yemouna Manel Chikbouni Kevin Lebreton et Thomas Rambaldi Notre tuteur et client est M Bechet
+
+aller a la diapositive table des matieres Donc tout d'abord nous allons vous faire une presentation du projet Puis vous presentez la methode de travail utilise employe Suivi du travail realise Et pour finir une conclusion
+
+aller a la diapositive introduction La presentation a pris differentes formes Tout d'abord en ecrivant au tableau puis a l'aide des retroprojecteurs et de fueille transparante avec des videoprojecteur et a l'aide de claviers souris Ce qui peutetre un probleme pour l'orateur Toujours les mains prise ou deplacement force jusqu'a la machine Presentation a venir grace a cette application pouvoir liberer le conferencier de ses mouvement que cela soit de ses mains ou de ces deplacements Ce qui apporte une presentation plus naturelle
+
+aller a la diapositive methode de travail Tout au long de ce projet nous avons travaille avons la methode agile Celleci a pour but de prendre plusieurs rendezvous pendant la phase du projet qui consiste a plusieurs chose Tout d'abord analyse le besoin Puis recadrer si un hors sujet est faite Et enfin valider Nous avons eu des reunions avec M Bechet toutes les semaines pour la comprehension mais aussi pour lui montrer l'etat d'avancement Mais aussi avec M Favre qui lui c'est de la partie au niveau des outils Probleme de fonctionnement ou non comprehension de ces derniers
+
+aller a la diapositive logiciel existant
+
+aller a la diapositive reconnaissance vocale
+
+aller a la diapositive presentation de l'application
+
+aller a la diapositive differentes versions En ce qui concerne les differentes versions trois ont ete developpes La premiere changement de diapositive en passant a la suivante ou a la precedante a l'aide deux de mots cle comme next et previouis Cette version comme l'avantage qu'elle est simple et repond au besoins du clients Pour ce qui est des incovenients il faut repeter que ces deux mots pour que la transition s'opere Si le conferencier veux passer de la page trois a quinze celuici doit repeter douze fois le mot next Une fois la premiere version fonctionnelle une amelioration a ete apporte Pour remedier a ces deux mots cles chaque diapositive comporte son propre motcle pour passer a la diapositive suivante Le motcle permettant de faire precedant n'existe plus Pour faire un retour en arriere il faut que l'orateur prononce une sequence de motscle Comme par exemple go to the slide plus le tire de la diapositive Cette methode permet bien eventullement d'aller a n'importe qu'elle diapositive se trouvant dans la presentation Comme aller de la diapositive une a cinq Cette amelioration apporte les avantages suivantes Permet de naviguer entre n'importe qu'elle diaposive sans passer par les pages intermediare Les desavantages l'orateur doit se souvenir des tous les mots c'estadire tous les tires des diapositives Enfin une derniere où il a ete implemente un point supplementaire Ce point consiste a changer de diapositive a l'aide du texte Pour que le changement s'opere l'orateur prononce son texte Des que le systeme detecte un certain pourcentage du message qui est en concordance avec le texte inscrit dans le fichier Beamer le changement se fait Ce derniere version porte les avantages que l'orateur na plus besoin de se souvenir de chaque mot cle associe a la diapositive courante Mais il doit pour cela prononcer son texte qui est le plus proche prossible de celui qui a ecrit au prealablement Dans le cas où le presentation a un trou de memoire il peu utliliser le clavier en cas de secours Ce qui permet d'eviter tout blocage lors d'une presentation
+
+aller a la diapositive latex/xml
+
+aller a la diapositive client/serveur
+
+aller a la diapositive interface graphique
+
+aller a la diapositive demonstration avec mot-cle Cette demonstration va fonctionner avec le motcle  passer a la diapositive suivante	
+
+aller a la diapositive demonstration pour aller sur une diapositive Cette demonstration va fonctionner avec le motcle  "aller a la diapositive plusieurs versions"	
+
+aller a la diapositive demonstration avec un texte Dans cette partie de la demonstration nous allons changer de diapositive sans motcle mais seulement avec le texte que je suis en train de lire Ce qui devrait nous mener a la diapositive concernant les perspectives
+
+aller a la diapositive perspectives
+
+aller a la diapositive bilan personnel
+
+aller a la diapositive conclusion Ce TER consistait a realiser un moteur interactif guide par la voix pour faciliter l'interaction entre le locuteur et sa presentation A l'heure actuelle l'application est prete a etre utilisee On  peu donc affirmer que le but qui avait ete fixe est atteint Certains points sont a ameliorer Comme la mise en place d'un systeme qui detecte lorsque l'orateur a finit sa diapositive afin qu'il change automatiquement Ce projet fonctionne est repond au besoin 	 Ce TER a permis a tous les membres du groupes de mettre en application les competences scolaire acquises et de les approfondir
+
+aller a la diapositive frame without title Nous vous remercions de votre attention y a til des questions 
+
+aller a la diapositive references
+
+zero un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize dix-sept dix-huit dix-neuf vingt vingt-et-un vingt-deux vingt-trois vingt-quatre vingt-cinq vingt-six vingt-sept passer a la diapositive suivante passer a la diapositive precedente prochaine va a la diapo diapositive jarvis 

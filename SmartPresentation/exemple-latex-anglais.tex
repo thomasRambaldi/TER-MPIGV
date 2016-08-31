@@ -1,0 +1,65 @@
+\documentclass[english]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[]{babel}
+
+% Pour la première page
+\title{English Presentation}
+\author{Kevin Lebreton}
+\date{29/05/16}
+		
+\begin{document}
+  \begin{frame}
+ \frametitle{Example English}
+	% We are going to start our presentation, let's talk about the introduction.
+	    \titlepage
+  \end{frame}
+
+  
+  \begin{frame}{Table of contents}
+	%This is the second slide which represent the table of contents    
+	\tableofcontents
+  \end{frame}
+
+  \section{Our project}
+  \begin{frame}{Title of third slide}
+    %Our project is an interactive slide motor controlled by the voice.
+    Slide engine \\ 
+    Controlled by voice \\ 
+    project management.
+  \end{frame}
+
+  \section{Conclusion and examples}
+  \begin{frame}{Conclusion}
+	%The text for the first block which is animated
+	\begin{block}{We can use general keywords}<1->
+	  	\begin{itemize}
+	  		\item {\tt go to the next slide}   		
+    		\item {\tt go to the previous slide}
+		\end{itemize}
+	\end{block}
+
+	%The text for the second block which is animated
+	\begin{block}{We can use specific keywords}<2->
+	  	\begin{itemize}
+	  		\item {\tt go to the slide introduction}   		
+    		\item {\tt go to the slide conclusion}
+		\end{itemize}
+	\end{block}
+
+	%The text for the third animated block
+	\begin{block}{We can say our text}<3->
+	  	\begin{itemize}
+	  		\item {\tt Just read the text below}   		
+    		\item {\tt The text for the third animated block}
+		\end{itemize}
+	\end{block}
+  \end{frame}
+  
+  {\1
+\begin{frame}[plain,noframenumbering]
+  \finalpage{Thank you}
+\end{frame}
+}
+
+\end{document}
